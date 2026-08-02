@@ -1,7 +1,24 @@
 aid: urban-sdk
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/urban-sdk.png
 name: Urban SDK
-description: Urban SDK is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Urban SDK is a geospatial AI and data analytics company serving the public
+  sector, delivering hourly road-speed and traffic data, analytics, and AI tools that
+  help cities, counties, and transportation agencies prioritize issues, pinpoint trends,
+  and act on traffic management, public safety, emergency response, and infrastructure
+  planning. A Techstars portfolio company based in Jacksonville, Florida, Urban SDK
+  delivers its data through a web platform and automated Workflows reports rather than
+  a public API, and currently publishes no developer documentation or client SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/urban-sdk/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,10 +27,22 @@ x-backed-by:
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v1
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Transportation
+- Traffic
+- Geospatial
+- Government
+- Data Analytics
+- Public Safety
+- Smart Cities
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,25 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/urban-sdk-domain-security.yml
 - type: Website
   url: https://urbansdk.com/
+- type: Support
+  url: https://help.urbansdk.com/support
+- type: Blog
+  url: https://urbansdk.com/content/articles
+- type: Pricing
+  url: https://urbansdk.com/pricing-free-trial
+- type: SignUp
+  url: https://urbansdk.com/pricing-free-trial
+- type: Login
+  url: https://portal.urbansdk.com/sign-in
+- type: TermsOfService
+  url: https://urbansdk.com/legal/terms-of-service
+- type: PrivacyPolicy
+  url: https://urbansdk.com/legal/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/urbansdk
+- type: LLMsTxt
+  url: llms/urban-sdk-llms.txt

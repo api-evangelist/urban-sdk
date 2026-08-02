@@ -1,0 +1,28 @@
+# Urban SDK
+
+> Urban SDK is a geospatial AI and data analytics platform for the public sector. It delivers hourly road-speed and traffic data, analytics, and AI tools that help cities, counties, and transportation agencies prioritize issues, pinpoint trends, and act on traffic management, public safety, emergency response, and infrastructure planning — delivered through a web platform (portal.urbansdk.com) rather than a public API.
+
+Urban SDK does not currently publish a public API, developer documentation, or client SDKs. Access to its traffic data and insights is through the Urban SDK web platform and automated Workflows reports.
+
+## Platform
+
+- [Urban SDK](https://urbansdk.com/): Company website and product overview
+- [Platform sign-in](https://portal.urbansdk.com/sign-in): Customer web platform
+- [Pricing / free trial](https://urbansdk.com/pricing-free-trial): 30 days of free traffic data access
+
+## Help
+
+- [Help Center](https://help.urbansdk.com/support): Getting Started, Insights, Workflows, Platform Settings, Data Management, Advanced Trainings
+- [Contact](https://urbansdk.com/contact): Contact form (support@urbansdk.com)
+
+## Resources
+
+- [Articles](https://urbansdk.com/content/articles): Company articles
+- [Case studies](https://urbansdk.com/case-studies): Customer case studies
+- [Webinars](https://urbansdk.com/content/webinars): Training webinars
+- [GitHub](https://github.com/urbansdk): GitHub organization (no first-party SDKs published)
+
+## Legal
+
+- [Terms of service](https://urbansdk.com/legal/terms-of-service)
+- [Privacy policy](https://urbansdk.com/legal/privacy-policy)

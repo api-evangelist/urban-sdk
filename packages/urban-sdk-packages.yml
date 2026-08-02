@@ -1,0 +1,22 @@
+generated: '2026-07-21'
+method: searched
+source: npm registry search, PyPI, GitHub org github.com/urbansdk
+packages: []
+notes: >-
+  No first-party client libraries found. npm registry search for "urbansdk"
+  returned 0 results; pypi.org/pypi/urbansdk returned 404. The GitHub org
+  github.com/urbansdk exists (Jacksonville, FL) but hosts only two forked
+  repositories (awesome-transit, weather_data) — no SDKs, API clients, or
+  specs. Urban SDK is a portal-delivered SaaS (portal.urbansdk.com) for
+  public-sector traffic analytics; despite the "SDK" name, it publishes no
+  developer packages.
+probes:
+  - registry: npm
+    query: urbansdk
+    results: 0
+  - registry: pypi
+    package: urbansdk
+    status: 404
+  - registry: github
+    org: https://github.com/urbansdk
+    first_party_repos: 0

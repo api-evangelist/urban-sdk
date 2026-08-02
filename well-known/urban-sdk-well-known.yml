@@ -1,0 +1,35 @@
+generated: '2026-07-21'
+method: searched
+source: probed via HTTP (curl) against apis.yml hosts
+hosts:
+  - host: https://urbansdk.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /security.txt
+        status: 404
+      - path: /llms.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+  - host: https://portal.urbansdk.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 200
+        note: soft 404 — SPA returns its HTML shell for every path; not a valid
+          RFC 9116 security.txt, so no raw file was saved
+subdomain_probes:
+  note: DNS lookups failed (no such host) for common developer subdomains
+  hosts:
+    - docs.urbansdk.com
+    - api.urbansdk.com
+    - developer.urbansdk.com
+    - developers.urbansdk.com
+    - status.urbansdk.com
+    - trust.urbansdk.com
